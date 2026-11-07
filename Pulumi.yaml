@@ -1,0 +1,10 @@
+name: artifacts
+description: A private S3 bucket for build artifacts
+runtime:
+  name: python
+  options:
+    toolchain: uv
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
